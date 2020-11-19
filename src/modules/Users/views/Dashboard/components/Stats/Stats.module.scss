@@ -1,0 +1,61 @@
+@import 'src/styles/_variables';
+
+.stats {
+  font-size: 16px;
+  margin: 1em;
+
+  &Header {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+  }
+
+  &Content {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: $sm) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    :nth-child(2n) {
+      @media screen and (min-width: $sm) {
+        padding-left: 1em;
+      }
+    }
+
+    .stat {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0.5em 0;
+
+      @media screen and (min-width: $sm) {
+        width: 50%;
+      }
+
+      :first-child {
+        margin: 0 0.5em 0 0;
+      }
+
+      :nth-child(2) {
+        margin: 0;
+      }
+    }
+  }
+
+  .reportsButton {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    float: right;
+  }
+}

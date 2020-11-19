@@ -1,0 +1,12 @@
+@import 'src/styles/_variables.scss';
+
+.notesContainer {
+  margin: 24px 0;
+  max-width: $lg;
+}
+
+.addNoteButton {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,36 @@
+@import 'src/styles/_variables';
+.paper {
+  min-width: 75vw;
+  padding: 30px;
+
+  @media screen and (max-width: $sm) {
+    min-width: 100%;
+    padding: 5px;
+  }
+}
+.pagination {
+  padding: 10px 0;
+}
+
+.emptyNotifications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.notificationsHeader {
+  margin-left: 5px;
+  margin-top: 6px;
+}
+.notificationsList {
+  margin: 10px 0;
+}
+.unreadNotification {
+  width: 5px;
+  height: 95%;
+  display: inline-block;
+  background: $primary-color;
+  position: absolute;
+  top: 2.5%;
+  left: 0px;
+}

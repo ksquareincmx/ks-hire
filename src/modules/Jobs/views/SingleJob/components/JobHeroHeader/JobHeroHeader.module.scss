@@ -1,0 +1,140 @@
+@import 'src/styles/_variables.scss';
+
+.backArrowIcon {
+  color: $font-color-header;
+  padding: 1rem;
+}
+
+.buttonsContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroHeader {
+  background-color: #494949;
+  color: $font-color-header;
+  flex-flow: column;
+}
+
+.heroLink {
+  background-color: #ebebeb;
+  margin: 16px 16px 0 0;
+  padding: 8px;
+  border-radius: 8px;
+  color: $color-light-grey-700;
+  transition: 0.3s;
+
+  &:hover {
+    color: $hover-color;
+  }
+}
+
+.jobPath {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.jobTitle {
+  margin: 16px 0 8px 0;
+}
+
+.jobText {
+  color: $font-color-header;
+  margin: 0.25rem 0;
+}
+
+.locationText {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.chipContainer {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+// CHIPS
+
+.Open {
+  background-color: #43a047;
+  color: white;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.Closed {
+  background-color: #e53935;
+  color: white;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.changeStatusText {
+  padding: 4px 8px 0px 8px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.optionsIcon {
+  margin: 16px 16px 0 0;
+  border-color: white;
+  transition: 250ms;
+  padding: unset;
+
+  &:hover {
+    color: $hover-color;
+  }
+}
+
+.formLink {
+  color: white;
+  padding: 5px 15px;
+  transition: 250ms;
+
+  &:hover {
+    color: $hover-color;
+  }
+}
+
+.roomIcon {
+  margin-right: 0.5rem;
+}
+
+.tab {
+  font-weight: bold;
+}
+
+.jobInfo {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  max-width: $lg;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.tabs {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  margin: 2rem auto 0 auto;
+  max-width: $lg;
+  width: 100%;
+}
+
+@media (min-width: $md) {
+  .jobInfo {
+    align-items: flex-start;
+  }
+
+  .tabs {
+    flex-flow: row;
+    padding: 0 1rem;
+  }
+}

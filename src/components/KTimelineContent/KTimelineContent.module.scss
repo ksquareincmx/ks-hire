@@ -1,0 +1,49 @@
+@import 'src/styles/_variables.scss';
+
+.timelineContentContainer {
+  background-color: $no-stage;
+  font-weight: bold;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  min-width: 150px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 6px solid $no-stage;
+  position: absolute;
+  top: -6px;
+  left: 9px;
+}
+
+.timelineContent {
+  width: 100%;
+  text-align: center;
+  padding: 3px 6px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+
+  &.hasEvent {
+    cursor: pointer;
+  }
+
+  &.hasExtraEvent {
+    cursor: pointer;
+  }
+
+  &:hover {
+    border-radius: 10px;
+    background-color: rgba(73, 73, 73, 0.25);
+  }
+}

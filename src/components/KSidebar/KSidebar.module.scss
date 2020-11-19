@@ -1,0 +1,36 @@
+@import 'src/styles/_variables';
+
+.drawer {
+  width: $drawer-width;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.drawerOpen {
+  width: $drawer-width;
+  transition: width 0.3s;
+}
+
+.drawerClose {
+  width: $drawer-width-close-xs;
+  transition: width 0.3s;
+  overflow-x: hidden;
+}
+
+.list {
+  padding-top: 0;
+}
+
+.selected {
+  background-color: rgba($color: #49A7B7, $alpha: .25)
+}
+
+@media screen and (min-width: 600px) {
+  .drawerClose {
+    width: $drawer-width-close-md;
+  }
+
+  .toolbar {
+    min-height: 64px;
+  }
+}

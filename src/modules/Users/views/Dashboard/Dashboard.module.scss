@@ -1,0 +1,10 @@
+@import 'src/styles/_variables';
+
+.textContainer {
+  min-width: 75vw;
+  margin-bottom: 20px;
+
+  @media screen and (max-width: $sm) {
+    min-width: 100%;
+  }
+}

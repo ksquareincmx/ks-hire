@@ -1,0 +1,137 @@
+@import 'src/styles/_variables.scss';
+
+.backArrowIcon {
+  color: $font-color-header;
+  padding: 1rem;
+}
+
+.buttonsContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroHeader {
+  background-color: #494949;
+  color: $font-color-header;
+  flex-flow: column;
+}
+
+.name {
+  color: $font-color-header;
+  margin: 10px 0;
+}
+
+.nameContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconRef {
+  width: 40px;
+  height: 20px;
+  margin-left: 15px;
+  border-radius: 2px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.refText {
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.candidateText {
+  color: $font-color-header;
+  margin: 0;
+}
+
+.locationText {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.offerText {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.optionsIcon {
+  color: $font-color-header;
+  margin: 0;
+  padding: 1rem;
+}
+
+.roomIcon {
+  margin-right: 0.5rem;
+}
+
+.tab {
+  font-weight: bold;
+}
+
+.candidateInfo {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  max-width: $lg;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.tabs {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  margin: 2rem auto 0 auto;
+  max-width: $lg;
+  width: 100%;
+}
+
+@media (min-width: $md) {
+  .candidateInfo {
+    align-items: flex-start;
+  }
+
+  .tabs {
+    flex-flow: row;
+    padding: 0 1rem;
+  }
+}
+
+.timelineContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 228px;
+}
+
+// CandidateListing
+.PROSPECTIVE {
+  color: white;
+  background-color: #1e88e5;
+  font-weight: 700;
+}
+.ACTIVE {
+  color: white;
+  background-color: #00acc1;
+  font-weight: 700;
+}
+.HIRED {
+  color: white;
+  background-color: #43a047;
+  font-weight: 700;
+}
+.REJECTED {
+  color: white;
+  background-color: #e53935;
+  font-weight: 700;
+}

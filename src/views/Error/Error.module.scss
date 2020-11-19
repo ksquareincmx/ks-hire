@@ -1,0 +1,52 @@
+@import 'src/styles/_variables';
+
+.error {
+  display: flex;
+  flex-direction: column;
+  margin: 6rem auto;
+
+  .image {
+    margin: 0 auto;
+    max-width: 120px;
+
+    @media screen and (min-width: $sm) {
+      max-width: 160px;
+    }
+
+    @media screen and (min-width: $md) {
+      max-width: 180px;
+    }
+  }
+
+  .statusCode {
+    margin: 0;
+    font-size: 3rem;
+    color: $primary-color;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (min-width: $sm) {
+      font-size: 4rem;
+    }
+
+    @media screen and (min-width: $md) {
+      font-size: 6rem;
+    }
+  }
+
+  .message {
+    margin: 0;
+    font-size: 1.5rem;
+    color: $font-color;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (min-width: $sm) {
+      font-size: 2rem;
+    }
+
+    @media screen and (min-width: $md) {
+      font-size: 3rem;
+    }
+  }
+}

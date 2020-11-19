@@ -1,0 +1,18 @@
+@import 'src/styles/_variables';
+
+.candidateApplied {
+  height: 100%;
+  overflow: auto;
+}
+
+.headerImg {
+  width: 100%;
+}
+
+.candidateAppliedContainer {
+  padding: 16px 32px;
+}
+
+.bold {
+  font-weight: bold;
+}

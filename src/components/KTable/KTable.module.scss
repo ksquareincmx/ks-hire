@@ -1,0 +1,81 @@
+@import 'src/styles/_variables';
+
+.paper {
+  width: 100%;
+}
+
+// CandidateListing
+.chipProspective {
+  background-color: transparent;
+  border: 2px solid $prospective-stage;
+  color: $prospective-stage;
+  font-weight: 700;
+  min-width: 120px;
+}
+.chipActive {
+  background-color: transparent;
+  border: 2px solid $active-stage;
+  color: $active-stage;
+  font-weight: 700;
+  min-width: 120px;
+}
+.chipHired {
+  background-color: transparent;
+  border: 2px solid $hired-stage;
+  color: $hired-stage;
+  font-weight: 700;
+  min-width: 120px;
+}
+.chipRejected {
+  background-color: transparent;
+  border: 2px solid $rejected-stage;
+  color: $rejected-stage;
+  font-weight: 700;
+  min-width: 120px;
+}
+
+//UserListing
+.chipAdmin {
+  background-color: transparent;
+  border: 2px solid $administrator-user;
+  color: #3949ab;
+  font-weight: 700;
+  min-width: 132px;
+}
+.chipRecruiter {
+  background-color: transparent;
+  border: 2px solid$recruiter-user;
+  color: $recruiter-user;
+  font-weight: 700;
+  min-width: 132px;
+}
+.chipInterviewer {
+  background-color: transparent;
+  border: 2px solid $interviewer-user;
+  color: $interviewer-user;
+  font-weight: 700;
+  min-width: 132px;
+}
+.chipManager {
+  background-color: transparent;
+  border: 2px solid$hiring-manager-user;
+  color: $hiring-manager-user;
+  font-weight: 700;
+  min-width: 132px;
+}
+
+// JobListing
+.chipOpen {
+  background-color: transparent;
+  border: 2px solid $open-job;
+  color: $open-job;
+  font-weight: 700;
+  min-width: 76px;
+}
+.chipClosed {
+  background-color: transparent;
+  border: 2px solid $closed-job;
+  color: $closed-job;
+  font-weight: 700;
+  min-width: 76px;
+}

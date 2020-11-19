@@ -1,0 +1,24 @@
+.addFeedbackForm {
+  width: 90%;
+}
+
+.container {
+  margin: 15px;
+}
+
+.ratingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ratingLabel {
+  text-align: center;
+  margin-top: 15px;
+  min-height: 20px;
+}
+
+.formButton {
+  float: right;
+  margin-top: 18px;
+}

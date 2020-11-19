@@ -1,0 +1,34 @@
+.inputContainer {
+  align-items: center;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.fileTypeText {
+  align-items: center;
+  box-sizing: border-box;
+  display: block;
+  padding: 8px;
+}
+
+.checkboxText {
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.checkboxLink {
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.checkboxLink:visited {
+  text-decoration: none;
+}
+
+.jobImg {
+  width: 25%;
+}

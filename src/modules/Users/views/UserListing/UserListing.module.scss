@@ -1,0 +1,34 @@
+@import 'src/styles/_variables.scss';
+
+.titleRow {
+  margin-bottom: 16px;
+}
+
+.tableContainer {
+  margin: 2rem 0 0 0;
+}
+
+.addButtonContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  order: 2;
+}
+
+.searchbar {
+  order: 3;
+}
+
+@media (min-width: $md) {
+  .tableContainer {
+    margin: 0 0 0 2rem;
+  }
+
+  .addButtonContainer {
+    order: 3;
+  }
+
+  .searchbar {
+    padding-left: 2rem;
+    order: 2;
+  }
+}

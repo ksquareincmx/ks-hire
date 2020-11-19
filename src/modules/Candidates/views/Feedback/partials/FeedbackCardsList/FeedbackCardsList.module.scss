@@ -1,0 +1,29 @@
+@import 'src/styles/_variables.scss';
+
+.longMenuPosition {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+}
+
+.reviewerFeedbackHeader h5 {
+  display: inline-block;
+  margin: 0;
+}
+.reviewerFeedbackDate {
+  color: gray;
+  display: block;
+}
+
+.feedbackKAvatar {
+  display: inline-block;
+  padding: 0 0.625rem 0.625rem 0;
+  position: relative;
+  top: -4px;
+}
+
+@media (min-width: $sm) {
+  .displaySmallInlineBlock {
+    display: inline-block;
+  }
+}

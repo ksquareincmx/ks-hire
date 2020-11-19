@@ -1,0 +1,85 @@
+@import 'src/styles/_variables';
+
+.appBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: $primary-color !important;
+  z-index: $max-z-index;
+  transition: width 0.5s;
+}
+.avatarHeader {
+  &:hover {
+    cursor: pointer;
+  }
+  margin-right: 0.5rem;
+  align-self: center;
+  justify-content: center;
+  font-size: 1rem;
+  height: 35px;
+  width: 35px;
+}
+.avatarPopover {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.menuButton {
+  margin-right: 36px;
+}
+.paperProfile {
+  max-width: 10rem;
+  width: 100%;
+}
+.paperNotifications {
+  max-width: 20rem;
+  width: 100%;
+}
+.popoverName {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+}
+.popoverRole {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.logOutIcon {
+  min-width: 0;
+  margin-right: 5px;
+}
+.nameSection {
+  margin: 1rem 1.9rem 1rem 1.9rem;
+}
+.hide {
+  display: none;
+}
+
+.logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logosvg {
+  width: 200px;
+}
+
+.toolbar {
+  width: 100%;
+}
+
+.profile-name {
+  color: white;
+}
+
+
+@media screen and (max-width: $sm) {
+  .logosvg {
+    width: 100px;
+  }
+  
+}

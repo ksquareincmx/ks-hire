@@ -1,0 +1,54 @@
+@import 'src/styles/_variables.scss';
+
+.timelineDotContainer {
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: 12px;
+  background-color: $no-stage;
+  display: inline-block;
+}
+
+.hasEvent {
+  cursor: pointer;
+}
+
+.PROSPECTIVE {
+  &.CURRENT {
+    background-color: #1e88e5;
+  }
+
+  &:hover {
+    background-color: #51a3e8;
+  }
+}
+
+.ACTIVE {
+  &.CURRENT {
+    background-color: #00acc1;
+  }
+  &:hover {
+    background-color: #3dbece;
+  }
+}
+
+.HIRED {
+  &.CURRENT {
+    background-color: #43a047;
+  }
+  &:hover {
+    background-color: #6eb573;
+  }
+}
+
+.REJECTED {
+  &.CURRENT {
+    background-color: #e53935;
+  }
+  &:hover {
+    background-color: #e86865;
+  }
+}
+
+.CURRENT:hover {
+  cursor: default;
+}

@@ -1,0 +1,45 @@
+@import 'src/styles/_variables';
+
+.main {
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+
+    .avatar {
+      margin: 1em;
+      display: flex;
+      align-items: center;
+
+      .avatarNameDate {
+        display: flex;
+        flex-direction: column;
+
+        .avatarName {
+          margin: 0;
+        }
+
+        .avatarDate {
+          font-size: 0.6em;
+          margin: 0;
+        }
+      }
+
+      &Image {
+        margin-right: 0.5em;
+      }
+    }
+
+    .iconEdit {
+      color: rgba(0, 0, 0, 0.54);
+      padding: 0;
+    }
+  }
+
+  .candidateInfo {
+    margin: 0 1em 1em;
+
+    .info {
+      margin: 0;
+    }
+  }
+}

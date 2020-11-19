@@ -1,0 +1,12 @@
+@import 'src/styles/_variables';
+
+.tableCell {
+  color: #242528;
+  background: none;
+}
+
+.tableCellWhiteText {
+  font-size: 1.17em;
+  font-weight: bold;
+  color: $primary-color;
+}

@@ -1,0 +1,10 @@
+.voteTitle {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 0;
+  opacity: 0;
+
+  &--checked {
+    opacity: 1;
+  }
+}

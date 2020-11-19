@@ -1,0 +1,38 @@
+@import 'src/styles/_variables.scss';
+
+.mainContainer {
+  margin: auto;
+  max-width: $lg;
+  padding: 1rem;
+}
+
+.tableContainer {
+  margin: 2rem 0 0 0;
+  width: 100%;
+}
+
+.searchbar {
+  margin-bottom: 0.5rem;
+}
+
+.singleJobDescription {
+  display: flex;
+  flex-flow: column;
+  margin: 1.5rem 0rem 1.5rem 0;
+  padding: 1.5rem;
+  width: 100%;
+  min-height: 15vh;
+}
+
+.cardHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: $md) {
+  .tableContainer {
+    margin: 0 0 0 3rem;
+  }
+}

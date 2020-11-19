@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  frontend:
+    image: ${DOCKER_REPOSITORY_TAG}
+    networks:
+      - default
+      - proxy
+    environment:
+      NODE_PATH: src
+      VIRTUAL_HOST: localhost
+
+networks:
+  proxy:
+    external: true

@@ -1,0 +1,66 @@
+// Branding
+$primary-color: #49a7b7;
+$hover-color: #5daab8;
+$focus-color: #41909e;
+$background-color-tab: #f5f2f2;
+$font-color: #707070;
+$font-family: 'Nunito Sans', sans-serif;
+$black-dark: #3c3c3c;
+$black-light: #494949;
+$white: #fff;
+$red: #c13e3e;
+$disabled-color: #e0d7d7;
+$tab-color: #f5f2f2;
+$background-container: #f0f4f7;
+$background-color-card: #fff;
+$font-color-header: #fff;
+$success-color: #3dc444;
+
+/*
+ * Light Grey
+ * Small variations of monochrome light tones, gradual enough to be subtle against a single weight.
+ * The lightest value is pure white.
+ * https://material.io/ was used to choose the Material colors.
+ */
+$color-light-grey-400: #e0e0e0;
+$color-light-grey-700: #979797;
+
+// KChip Colors for Candidate Stages
+$active-stage: #00acc1;
+$hired-stage: #43a047;
+$prospective-stage: #1e88e5;
+$rejected-stage: #e53935;
+$no-stage: #c4c4c4;
+
+// KChip Colors for Job Stages
+$closed-job: #e53935;
+$open-job: #43a047;
+
+// KChip Colors for Users
+$administrator-user: #3949ab;
+$hiring-manager-user: #00897b;
+$interviewer-user: #1e88e5;
+$recruiter-user: #00acc1;
+
+// MUI Breakpoints
+$sm: 600px;
+$md: 960px;
+$lg: 1280px;
+$xl: 1920px;
+
+// z-index
+$max-z-index: 9999;
+$min-z-index: 1;
+
+$font-weight-regular: 300;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+$font-weight-extra-bold: 700;
+
+// drawer
+$drawer-width: 240px;
+$drawer-width-close-md: 58px;
+$drawer-width-close-xs: 0;
+
+// Spacing
+$space-700: 42px;

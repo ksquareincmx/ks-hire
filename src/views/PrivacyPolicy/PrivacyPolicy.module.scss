@@ -1,0 +1,43 @@
+@import 'src/styles/_variables';
+
+.privacyPolicy {
+  overflow-y: scroll;
+}
+
+.privacyImg {
+  width: 100%;
+}
+
+.privacyContainer {
+  padding-top: 32px;
+}
+
+.tableOfContents {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15),
+    0 2px 3px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+}
+
+.tableOfContentsContainer {
+  padding: 22px 36px;
+}
+
+.tableOfContentsTitle {
+  font-weight: bold;
+  color: #476fb5;
+  cursor: pointer;
+}
+
+.addressLine {
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.link {
+  color: #476fb5;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}

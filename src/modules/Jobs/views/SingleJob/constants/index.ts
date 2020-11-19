@@ -1,0 +1,1 @@
+export { filtersData } from './constants';

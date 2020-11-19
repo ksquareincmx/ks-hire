@@ -1,0 +1,46 @@
+@import 'src/styles/_variables.scss';
+
+.hiringTeam {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.hiringTeamContainer {
+  margin-top: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+
+.item {
+  margin: 1rem 0;
+}
+
+.team {
+  margin-bottom: 0.5rem;
+}
+.teamInterviewers {
+  margin-bottom: 10px;
+}
+.teamPicture {
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: $color-light-grey-700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: $font-weight-bold;
+  padding: 16px;
+}
+
+.teamName {
+  margin-left: 0.5rem;
+}
+
+@media (max-width: $md) {
+  .hiringTeamContainer {
+    padding: 1rem 0rem;
+  }
+}

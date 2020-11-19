@@ -1,0 +1,40 @@
+@import 'src/styles/_variables.scss';
+
+.aditionalDetails {
+  color: $font-color;
+}
+
+.column {
+  flex: 50%;
+}
+
+.column:first-child {
+  padding-right: 1rem;
+}
+
+.disabledText {
+  color: $disabled-color;
+}
+
+.item {
+  margin: 1rem 0;
+}
+
+.jobDetails {
+  display: flex;
+  flex-flow: column;
+  margin: 1.5rem 0rem 1.5rem 0;
+  padding: 1.5rem;
+}
+
+.cardHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}

@@ -1,0 +1,104 @@
+@import 'src/styles/_variables';
+
+.container {
+  .header {
+    background-color: $black-light;
+    color: $white;
+    width: 100%;
+
+    &Icons {
+      margin: 4px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &CandidateInfo {
+      padding: 0;
+      margin: 0 auto 1em;
+      max-width: 1140px;
+
+      .candidateFullName {
+        margin: 0 0.5em;
+      }
+
+      .candidatePosition {
+        display: flex;
+        align-items: center;
+
+        .iconWork,
+        .iconEdit {
+          width: 20px;
+          color: $white;
+        }
+
+        .candidatePositionList {
+          margin: 0 0.5em;
+        }
+      }
+
+      .offerButton {
+        margin: 0 1em;
+        padding: 0.5em 1em;
+        background-color: #4caf50;
+        color: $white;
+        border-radius: 100px;
+        border: 1px solid #3e8e41;
+        cursor: pointer;
+      }
+    }
+
+    &Tabs {
+      margin: 0 auto;
+      max-width: 1140px;
+
+      .appBar {
+        background-color: $black-light;
+        box-shadow: none;
+        color: $white;
+      }
+    }
+  }
+
+  .main {
+    margin: 1em auto;
+
+    @media screen and (min-width: $md) {
+      max-width: 1140px;
+    }
+
+    .info {
+      padding: 1em 0 0 0;
+
+      @media screen and (min-width: $md) {
+        padding: 0 0 0 0.5em;
+      }
+    }
+
+    .components {
+      @media screen and (min-width: $md) {
+        padding: 0 0.5em 0 0;
+      }
+    }
+  }
+}
+
+.icon {
+  background-color: transparent;
+  color: white;
+}
+
+.hiringTeam {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.content {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.mainContainer {
+  margin: auto;
+  max-width: $lg;
+  padding: 1rem;
+}

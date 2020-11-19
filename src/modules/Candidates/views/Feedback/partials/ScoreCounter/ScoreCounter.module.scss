@@ -1,0 +1,41 @@
+@import 'src/styles/_variables.scss';
+
+.containerTitle {
+  margin-left: 40px;
+}
+
+.voteContainer {
+  .votes {
+    list-style-type: none;
+
+    li:not(:last-child) {
+      padding-bottom: 1rem;
+    }
+    li:nth-child(odd) {
+      padding-bottom: 0rem;
+    }
+
+    .positiveVoteColor {
+      color: green;
+    }
+    .neutralVoteColor {
+      color: gray;
+    }
+    .negativeVoteColor {
+      color: red;
+    }
+  }
+}
+
+@media (min-width: $sm) {
+  .voteContainer {
+    .votes {
+      display: grid;
+      grid-template-columns: 40% 60%;
+
+      li:nth-child(odd) {
+        padding-bottom: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.loadingContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: 50px;
+  grid-template-areas:
+    '. x x .'
+    '. x x .'
+    '. y y .';
+}
+
+.loadingAnimation {
+  grid-area: x;
+  align-self: center;
+  justify-self: center;
+}
+
+.loadingText {
+  grid-area: y;
+  align-self: center;
+  justify-self: center;
+}
+
+.modal {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 50vh;
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    width: 150px;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  height: 60px;
+  margin: 5px 10px;
+  width: 150px;
+}

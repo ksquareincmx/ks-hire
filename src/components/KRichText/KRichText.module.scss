@@ -1,0 +1,8 @@
+.editor :global(.ql-container) :global(.ql-editor) {
+  min-height: 30vh;
+  max-height: 50vh;
+}
+
+.tooltip :global(.ql-container) :global(.ql-tooltip) {
+  left: 0px !important;
+}

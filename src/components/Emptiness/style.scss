@@ -1,0 +1,27 @@
+@import 'src/styles/_variables';
+
+.emptiness {
+  border: 4px dashed $color-light-grey-400;
+  border-radius: 4px;
+  display: block;
+  padding: $space-700;
+
+  &--icon {
+    color: $color-light-grey-700;
+    text-align: center;
+  }
+
+  &-borderless {
+    border: none;
+  }
+
+  &--about {
+    color: $color-light-grey-700;
+    font-family: $font-family;
+    font-size: 1rem;
+    font-weight: $font-weight-medium;
+    line-height: 1;
+    text-align: center;
+    user-select: none;
+  }
+}

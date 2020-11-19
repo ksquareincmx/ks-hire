@@ -1,0 +1,13 @@
+@import 'src/styles/_variables.scss';
+
+.timelineSeparatorContainer {
+  padding: 0 6px;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.timelineSeparator {
+  min-width: 66px;
+  height: 4px;
+  background-color: $no-stage;
+}

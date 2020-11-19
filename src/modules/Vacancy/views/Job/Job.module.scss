@@ -1,0 +1,65 @@
+@import 'src/styles/_variables';
+
+.loadingContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: 50px;
+  grid-template-areas:
+    '. x x .'
+    '. x x .'
+    '. y y .';
+}
+
+.loadingAnimation {
+  grid-area: x;
+  align-self: center;
+  justify-self: center;
+}
+
+.loadingText {
+  grid-area: y;
+  align-self: center;
+  justify-self: center;
+  font-weight: bold;
+}
+
+.job {
+  height: 100%;
+  overflow: auto;
+}
+
+.jobImg {
+  width: 100%;
+}
+
+.jobContainer {
+  padding: 32px;
+}
+
+.jobLocation,
+.jobSalary,
+.jobTime {
+  font-weight: lighter;
+  margin: 0 0 8px 0;
+}
+
+.jobDescription {
+  margin-bottom: 40px;
+}
+
+.jobStatus {
+  text-transform: uppercase;
+  font-weight: bold;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 4px;
+
+  &.closed {
+    background-color: $closed-job;
+  }
+
+  &.open {
+    background-color: $open-job;
+  }
+}
