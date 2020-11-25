@@ -45,7 +45,7 @@ const CandidateDetails: React.FC<ICandidateDetailsProps> = (
 
         <div className={styles.detailsList}>
           <div className={styles.detail}>
-            <Typography variant="body2">
+            <Typography variant="body2" className={styles.detailText}>
               <Email fontSize="small" className={styles.detailIcon} />
               <a
                 href={`mailto:${email}`}
@@ -56,7 +56,7 @@ const CandidateDetails: React.FC<ICandidateDetailsProps> = (
             </Typography>
           </div>
           <div className={styles.detail}>
-            <Typography variant="body2">
+            <Typography variant="body2" className={styles.detailText}>
               <LocalPhone
                 fontSize="small"
                 className={styles.detailIcon}
@@ -68,7 +68,10 @@ const CandidateDetails: React.FC<ICandidateDetailsProps> = (
           </div>
           {country && city && state && (
             <div className={styles.detail}>
-              <Typography variant="body2">
+              <Typography
+                variant="body2"
+                className={styles.detailText}
+              >
                 <LocationOn
                   fontSize="small"
                   className={styles.detailIcon}
@@ -85,7 +88,10 @@ const CandidateDetails: React.FC<ICandidateDetailsProps> = (
           )}
           {website && (
             <div className={styles.detail}>
-              <Typography variant="body2">
+              <Typography
+                variant="body2"
+                className={styles.detailText}
+              >
                 <Link
                   fontSize="small"
                   className={styles.detailIcon}
@@ -103,7 +109,10 @@ const CandidateDetails: React.FC<ICandidateDetailsProps> = (
           )}
           {linkedinProfile && (
             <div className={styles.detail}>
-              <Typography variant="body2">
+              <Typography
+                variant="body2"
+                className={styles.detailText}
+              >
                 <LinkedIn
                   fontSize="small"
                   className={styles.detailIcon}
